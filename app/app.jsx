@@ -1,11 +1,11 @@
 import * as React from "react";
 import {Page} from "./page";
 import {Center} from "./center";
-import {Presentation} from "./presentation";
+import {PresentationContainer} from "./presentation";
 
 export class App extends React.Component {
     render() {
-        return <Presentation>
+        return <PresentationContainer>
             <Page>
                 <Center>
                     <h1>Frontend tech AMS will use in 2016</h1>
@@ -84,6 +84,6 @@ export class App extends React.Component {
                     <h1>Q&A</h1>
                 </Center>
             </Page>
-        </Presentation>;
+        </PresentationContainer>;
     }
 }
