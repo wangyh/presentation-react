@@ -1,9 +1,11 @@
+var webpack = require('webpack');
 module.exports = {
     context: __dirname + "/app",
-    entry: {
-        javascript: "./app.js",
-        html: "./index.html"
-    },
+    entry: [
+        "./index.jsx", 
+        'webpack/hot/only-dev-server',
+        'webpack-dev-server/client?http://localhost:8080'
+    ],
     output: {
         filename: "app.js",
         path: __dirname + "/dist"
@@ -28,5 +30,12 @@ module.exports = {
                 loader: 'style!css'
             }
         ]
-    }
+    },
+    devServer: {
+        contentBase: './dist',
+        hot: true
+   },
+   plugins: [
+       new webpack.HotModuleReplacementPlugin()
+   ]
 };
