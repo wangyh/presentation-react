@@ -81,6 +81,12 @@ export class App extends React.Component {
             </Page>
             <Page>
                 <Center>
+                <h2>Babel</h2>
+                <iframe height="500px" width="800px" src="https://babeljs.io/repl/"/>
+                </Center>
+            </Page>
+            <Page>
+                <Center>
                     <h1>Q&A</h1>
                 </Center>
             </Page>
