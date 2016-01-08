@@ -1,6 +1,6 @@
 import React from 'react';
 import {connect} from 'react-redux';
-import {total} from './action_creators';
+import {total} from '../action_creators';
 
 export class Presentation extends React.Component{
     render(){

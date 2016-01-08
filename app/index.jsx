@@ -1,10 +1,10 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom";
-import {App} from './app';
 import {createStore} from 'redux';
-import reducer from './reducer';
 import {Provider} from 'react-redux';
 import {init, next, prev} from './action_creators';
+import reducer from './reducer';
+import {App} from './components/app';
 
 const store = createStore(reducer);
 window.addEventListener('keyup', action);
