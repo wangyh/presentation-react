@@ -8,7 +8,7 @@ export class App extends React.Component {
         return <PresentationContainer>
             <Page>
                 <Center>
-                    <h1>Frontend tech AMS will use in 2016</h1>
+                    <h1>Frontend tech update 2016</h1>
                 </Center>
             </Page>
             <Page>
