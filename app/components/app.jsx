@@ -202,31 +202,63 @@ export class App extends React.Component {
                     <img src={require("../../images/Flow-3.png")}/>
                 </Center>
             </Page>
-            
             <Page>
                 <Center>
                     <h2>ReactJs</h2>
-
+                    <img src={require("../../images/React-1.png")}/>
+                    <img src={require("../../images/React-2.png")}/>
                 </Center>
             </Page>
             <Page>
                 <Center>
+                    <h2>Flux</h2>
+                    <img src={require("../../images/Flux-1.png")}/>
+                    <img src={require("../../images/Flux-2.png")}/>
+                </Center>
+            </Page>
+            
+            <Page>
+                <Center>
                     <h2>Redux</h2>
+                    <img src={require("../../images/Redux-1.png")}/>
+                    <img src={require("../../images/Redux-2.png")}/>
                 </Center>
             </Page>
             <Page>
                 <Center>
                     <h2>Immutable.js</h2>
+                    <img src={require("../../images/immutable-trie.png")}/>
                 </Center>
             </Page>
             <Page>
                 <Center>
                     <h2>FormatJS</h2>
+                    <img src={require("../../images/formatjs.png")}/>
+                    <img src={require("../../images/formatjs-integration.png")}/>
                 </Center>
             </Page>
             <Page>
                 <Center>
                     <h2>Webpack</h2>
+                    <img src={require("../../images/Webpack.png")}/>
+                </Center>
+            </Page>
+            <Page>
+                <Center>
+                    <h1>Demo 1</h1>
+                    <h2>ES6 + React</h2>
+                </Center>
+            </Page>
+            <Page>
+                <Center>
+                    <h1>Demo 2</h1>
+                    <h2>Typescript + React</h2>
+                </Center>
+            </Page>
+            <Page>
+                <Center>
+                    <h1>Demo 3</h1>
+                    <h2>React + Redux + Unit Test</h2>
                 </Center>
             </Page>
             <Page>
