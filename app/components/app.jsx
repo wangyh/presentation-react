@@ -8,7 +8,8 @@ export class App extends React.Component {
         return <PresentationContainer>
             <Page>
                 <Center>
-                    <h1>Frontend tech update 2016</h1>
+                    <h1>Frontend tech update</h1>
+                    <h3>Yuheng Wang | Jan 2016</h3>
                 </Center>
             </Page>
             <Page>
