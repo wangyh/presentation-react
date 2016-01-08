@@ -258,9 +258,16 @@ export class App extends React.Component {
             <Page>
                 <Center>
                     <h1>Demo 3</h1>
-                    <h2>React + Redux + Unit Test</h2>
+                    <h2>React + Redux + Immutable.js + Unit Test</h2>
                 </Center>
             </Page>
+            <Page>
+                <Center>
+                    <h1>Demo 4</h1>
+                    <h2>React Developer Tools</h2>
+                </Center>
+            </Page>
+ 
             <Page>
                 <Center>
                     <h1>Q&A</h1>
