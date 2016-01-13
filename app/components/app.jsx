@@ -14,7 +14,7 @@ export class App extends React.Component {
             </Page>
             <Page>
                 <Center align='left'>
-                <h2>Lanugage</h2>
+                <h2>Language</h2>
                 <ul>
                     <li>ES6 (ES2015)</li>
                     <li>ES7 (ES2016)</li>
@@ -70,7 +70,7 @@ export class App extends React.Component {
             <Page>
                 <Center>
                     <h2>ES6 - let and const</h2>
-                    <img src={require("../../images/ES6-let.png")} style={{height:"300px"}}/>
+                    <img src={require("../../images/ES6-let.png")} />
                 </Center>
             </Page>
 
@@ -116,6 +116,11 @@ export class App extends React.Component {
                 <Center>
                     <h2>ES6 - modules</h2>
                     <img src={require("../../images/ES6-modules-1.png")}/>
+                </Center>
+            </Page>
+            <Page>
+                <Center>
+                    <h2>ES6 - modules</h2>
                     <img src={require("../../images/ES6-modules-2.png")}/>
                 </Center>
             </Page>
@@ -163,7 +168,7 @@ export class App extends React.Component {
             <Page>
                 <Center>
                     <h2>ES7 - decorators</h2>
-                    <img src={require("../../images/ES7-decorators.png")}/>
+                    <img src={require("../../images/ES7-decorators.png")} style={{height:'550px'}}/>
                 </Center>
             </Page>
             <Page>
@@ -221,7 +226,7 @@ export class App extends React.Component {
             <Page>
                 <Center>
                     <h2>Redux</h2>
-                    <img src={require("../../images/Redux-1.png")}/>
+                    <img src={require("../../images/Redux-1.png")} style={{marginTop:'-20px'}}/>
                     <img src={require("../../images/Redux-2.png")}/>
                 </Center>
             </Page>
@@ -234,7 +239,7 @@ export class App extends React.Component {
             <Page>
                 <Center>
                     <h2>FormatJS</h2>
-                    <img src={require("../../images/formatjs.png")}/>
+                    <img src={require("../../images/formatjs.png")} style={{height:'300px'}} />
                     <img src={require("../../images/formatjs-integration.png")}/>
                 </Center>
             </Page>
