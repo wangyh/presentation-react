@@ -178,6 +178,12 @@ export class App extends React.Component {
                 </Center>
             </Page>
             <Page>
+                <Center>
+                <h2>Babel</h2>
+                <iframe seamless height="500px" width="800px" src="https://babeljs.io/repl/"/>
+                </Center>
+            </Page>
+            <Page>
                 <Center align='left'>
                     <h2>Typescript</h2>
                     <ul>
@@ -185,12 +191,6 @@ export class App extends React.Component {
                         <li>compile to ES6/5/3</li>
                         <li>static typed (compile time)</li>
                     </ul>
-                </Center>
-            </Page>
-            <Page>
-                <Center>
-                <h2>Babel</h2>
-                <iframe height="500px" width="800px" src="https://babeljs.io/repl/"/>
                 </Center>
             </Page>
             <Page>
@@ -251,29 +251,10 @@ export class App extends React.Component {
             </Page>
             <Page>
                 <Center>
-                    <h1>Demo 1</h1>
-                    <h2>ES6 + React</h2>
+                    <h1>Demo</h1>
+                    <h2>React/Unit Test/Development tool</h2>
                 </Center>
             </Page>
-            <Page>
-                <Center>
-                    <h1>Demo 2</h1>
-                    <h2>Typescript + React</h2>
-                </Center>
-            </Page>
-            <Page>
-                <Center>
-                    <h1>Demo 3</h1>
-                    <h2>React + Redux + Immutable.js + Unit Test</h2>
-                </Center>
-            </Page>
-            <Page>
-                <Center>
-                    <h1>Demo 4</h1>
-                    <h2>React Developer Tools</h2>
-                </Center>
-            </Page>
- 
             <Page>
                 <Center>
                     <h1>Q&A</h1>
