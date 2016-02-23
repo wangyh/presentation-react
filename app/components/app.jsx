@@ -2,6 +2,7 @@ import * as React from "react";
 import {Page} from "./page";
 import {Center} from "./center";
 import {PresentationContainer} from "./presentation";
+import {I18nExmaple} from "./i18n";
 
 export class App extends React.Component {
     render() {
@@ -9,7 +10,7 @@ export class App extends React.Component {
             <Page>
                 <Center>
                     <h1>Frontend tech update</h1>
-                    <h3>Yuheng Wang | Jan 2016</h3>
+                    <h3>Yuheng Wang | 2016</h3>
                 </Center>
             </Page>
             <Page>
@@ -145,15 +146,7 @@ export class App extends React.Component {
             <Page>
                 <Center>
                     <h2>ES6 - i18n</h2>
-                    <pre style={{textAlign: 'left', fontSize: '20pt'}}>
-                    <code>
-                        Intl.NumberFormat('zh-CN').format(12345.67)     -> 12,345.67<br/>
-                        Intl.NumberFormat('de-DE').format(12345.67)     -> 12.345,67<br/>
-                        Intl.DateTimeFormat('zh-CN').format(new Date()) -> 2016/1/8<br/>
-                        Intl.DateTimeFormat('de-DE').format(new Date()) -> 8.1.2016<br/>
-                        Intl.DateTimeFormat('en-US').format(new Date()) -> 1/8/2016<br/>
-                    </code>
-                    </pre>
+                    <I18nExmaple/>
                 </Center>
             </Page>
             <Page>
@@ -247,6 +240,7 @@ export class App extends React.Component {
                 <Center>
                     <h2>Webpack</h2>
                     <img src={require("../../images/Webpack.png")}/>
+                    <a src='http://blog.madewithlove.be/post/webpack-your-bags/'>http://blog.madewithlove.be/post/webpack-your-bags/</a>
                 </Center>
             </Page>
             <Page>
